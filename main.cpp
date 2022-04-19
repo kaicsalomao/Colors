@@ -25,7 +25,7 @@ int main(int argc, char** argv)
     }
 
     // Tratando a criação da janela
-    window = SDL_CreateWindow("Joguin", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, SDL_WINDOW_SHOWN);
+    window = SDL_CreateWindow("Colors", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, SDL_WINDOW_SHOWN);
     screenSurface = SDL_GetWindowSurface(window);
     SDL_UpdateWindowSurface(window);
 
